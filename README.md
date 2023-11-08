@@ -57,3 +57,27 @@ unintentional repeated button presses.<br />
 
 ### Link to a video showcasing functionality
 https://www.youtube.com/watch?v=Mwtftu1TroQ
+
+## Homework 4
+### Task Requirements
+Use the joystick to control the position of the segment 
+and ”draw” on the display. The movement between segments
+should be natural, meaning they should jump from the current position
+only to neighbors, but without passing through ”walls”.
+
+Here are the specific requirements:
+
+The initial position should be on the DP. The current
+position always blinks (irrespective of the fact that the segment is on or
+off). Use the joystick to move from one position to neighbors (see table for
+corresponding movement). Short pressing the button toggles the segment
+state from ON to OFF or from OFF to ON. Long pressing the button
+resets the entire display by turning all the segments OFF and moving the
+current position to the decimal point. 
+
+### Setup
+![setup](https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/cf6b0bb7-c10f-4869-bed9-3dcd176caf69)
+
+
+### Link to a video showcasing functionality
+https://youtu.be/rmZn8S3NRD4
