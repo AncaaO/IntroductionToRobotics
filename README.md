@@ -14,8 +14,10 @@ mapped value to the LED pins.
 • 3 Resistors <br />
 • Wires
 ### Setup
-![Homework2 setup](https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/1eccb316-d90e-4d86-943a-d89dff2b5e6c)
-
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/1eccb316-d90e-4d86-943a-d89dff2b5e6c" width="40%">
+</p>
+  
 ### Link to a video showcasing functionality
 https://www.youtube.com/watch?v=Gws7tRzjlYU
 
@@ -36,8 +38,8 @@ blink when the elevator is moving and remain static when stationary.<br />
 the floor after a short interval (2-3 seconds).<br />
 
 • Buzzer (optional for Computer Science, mandatory for CTI):
-The buzzer should sound briefly during the following scenarios:
-– Elevator arriving at the desired floor (something resembling a ”cling”).
+The buzzer should sound briefly during the following scenarios:<br />
+– Elevator arriving at the desired floor (something resembling a ”cling”).<br />
 – Elevator doors closing and movement (pro tip: split them into 2
 different sounds)<br />
 
@@ -53,7 +55,9 @@ next desired floor).<br />
 unintentional repeated button presses.<br />
 
 ### Setup
-![setup](https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/6cc06e92-6609-40cd-81d6-54f553d1e471)
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/6cc06e92-6609-40cd-81d6-54f553d1e471" width="40%">
+</p>
 
 ### Link to a video showcasing functionality
 https://www.youtube.com/watch?v=Mwtftu1TroQ
@@ -76,8 +80,36 @@ resets the entire display by turning all the segments OFF and moving the
 current position to the decimal point. 
 
 ### Setup
-![setup](https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/cf6b0bb7-c10f-4869-bed9-3dcd176caf69)
-
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/cf6b0bb7-c10f-4869-bed9-3dcd176caf69" width="40%">
+</p>
 
 ### Link to a video showcasing functionality
 https://youtu.be/rmZn8S3NRD4
+
+## Homework 5
+### Task Requirements
+Using the 4 digit 7 segment display and 3 buttons, implement a stopwatch timer that counts in 10ths of a second
+and has a save lap functionality (similar to most basic stopwatch functions
+on most phones).
+
+Here are the specific requirements:
+
+The starting value of the 4 digit 7 segment display should
+be ”000.0”. The buttons should have the following functionalities:<br />
+
+• Button 1: Start / pause.<br />
+• Button 2: Reset (if in pause mode). Reset saved laps (if in lap
+viewing mode).<br />
+• Button 3: Save lap (if in counting mode), cycle through last saved
+laps (up to 4 laps).
+
+### Setup
+
+### Photos:
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/980bfe73-6479-4324-9a2c-68f212c5f490" width="40%">
+</p>
+
+### Link to a video showcasing functionality
+https://youtu.be/6Nk67_HRk4g
