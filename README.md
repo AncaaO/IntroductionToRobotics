@@ -105,11 +105,69 @@ viewing mode).<br />
 laps (up to 4 laps).
 
 ### Setup
-
-### Photos:
 <p float = "left">
 <image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/980bfe73-6479-4324-9a2c-68f212c5f490" width="40%">
 </p>
 
 ### Link to a video showcasing functionality
 https://youtu.be/6Nk67_HRk4g
+
+
+## Homework 6
+### Task Requirements
+Create a "Smart Environmental Monitoring and Logging System" with Arduino. This system will employ two sensors, an Ultrasonic Sensor and a Light Sensor, to collect environmental information, store it in EEPROM memory, and offer visual cues through an RGB LED. User interaction will be facilitated via a Serial Menu.
+
+### Menu Structure
+
+**1. Sensor Settings** // Go to submenu <br />
+&nbsp; 1.1 Sensors Sampling Interval. Here you are prompted for
+a value between 1 and 10 seconds. Use this value as a sampling rate
+for the sensors.<br />
+&nbsp; 1.2 Ultrasonic Alert Threshold. Here you are prompted
+for a threshold value for the ultrasonic sensor. That is the min 
+value (signaling that something is too close).
+When sensor value exceeds the threshold value, an alert is
+given in the form of a message. If the LED is set to
+Automatic Mode (see section 4.2), it also turns red if any of
+the sensors are outside the value.<br />
+&nbsp; 1.3 LDR Alert Threshold. Here you are prompted for a
+threshold value for the LDR sensor. That is the
+max value (signals that night is coming).
+When sensor value exceeds the threshold value, an alert is
+given in the form of a message. If the LED is set to
+Automatic Mode (see section 4.2), it also turns red if any of
+the sensors are outside the value.<br />
+&nbsp; 1.4 Back // Return to main menu<br />
+
+**2. Reset Logger Data.** Should print a message, promting if you to
+confirm to delete all data. Something like ”are you sure?”, followed by
+the submenu with YES or NO. Both sensor data should be reset at the same
+time.<br />
+&nbsp; 2.1 Yes.<br />
+&nbsp; 2.2 No.<br />
+
+**3. System Status** // Check current status and health<br />
+&nbsp; 3.1 Current Sensor Readings. Prints sensor readings
+from all sensors when choosing the sumbmenu option.<br />
+&nbsp; 3.2 Current Sensor Settings. Displays the sampling rate and
+threshold value for all sensors.<br />
+&nbsp; 3.3 Display Logged Data.<br />
+&nbsp; 3.4 Back. Return to Main menu.<br />
+
+**4. RGB LED Control** // Go to submenu<br />
+&nbsp; 4.1 Manual Color Control. Set the RGB colors manually. You
+input them by putting a string (Red/Green/Blue). The user is informed of the expected format.<br />
+&nbsp; 4.2 LED: Toggle Automatic ON/OFF. If automatic mode is
+ON, then the led color turns GREEN when all sensors value do
+not exceed threshold values (aka no alert) and RED when there is an
+alert (aka ANY sensor value exceeds the threshold). When automatic
+mode is OFF, then the LED should use the last saved RGB values (0/0/0 by default). <br />
+&nbsp; 4.3 Back // Return to main menu<br />
+
+### Setup
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/f62db33e-df2a-42ac-8d48-0d0b5be97d61" width="40%">
+</p>
+
+### Link to a video showcasing functionality
+[Click here!](https://youtu.be/H-LIGSMY_tA)
