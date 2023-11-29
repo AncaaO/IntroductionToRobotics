@@ -110,7 +110,7 @@ laps (up to 4 laps).
 </p>
 
 ### Link to a video showcasing functionality
-https://youtu.be/6Nk67_HRk4g
+[Here!](https://youtu.be/6Nk67_HRk4g)
 
 
 ## Homework 6
@@ -170,4 +170,21 @@ mode is OFF, then the LED should use the last saved RGB values (0/0/0 by default
 </p>
 
 ### Link to a video showcasing functionality
-[Click here!](https://youtu.be/H-LIGSMY_tA)
+[Here!](https://youtu.be/H-LIGSMY_tA)
+
+
+## Homework 5
+### Task Requirements
+Develop a small game on the 8x8 matrix. The game must have at least 3 types
+of elements: player (blinks slowly), bombs/bullets (blinks fast), wall (doesn’t
+blink). It generates walls on the map (50% of the map) every time the program 
+is reset and the player moves around and destroys them (Bomberman style).
+
+### Setup
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/b7f78529-a1a0-456f-ae6c-f4eb5d380c9d" width="40%">
+</p>
+
+### Link to a video showcasing functionality
+[Here!](https://youtu.be/A54bzUWjvX8)
+
