@@ -173,7 +173,7 @@ mode is OFF, then the LED should use the last saved RGB values (0/0/0 by default
 [Here!](https://youtu.be/H-LIGSMY_tA)
 
 
-## Homework 5
+## Homework 7
 ### Task Requirements
 Develop a small game on the 8x8 matrix. The game must have at least 3 types
 of elements: player (blinks slowly), bombs/bullets (blinks fast), wall (doesn’t
