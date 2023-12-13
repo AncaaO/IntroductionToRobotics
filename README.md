@@ -188,3 +188,27 @@ is reset and the player moves around and destroys them (Bomberman style).
 ### Link to a video showcasing functionality
 [Here!](https://youtu.be/A54bzUWjvX8)
 
+
+## Homework 8
+### Task Requirements
+Create a menu on an LCD screen, allowing users to navigate through different sections. Users can start a new game, customize settings, and get information about the game itself. 
+
+### LCD Menu structure:
+**1. Intro Message** - When powering up the project, a greeting message
+is shown for a few moments. <br />
+**2. Menu** <br />
+&nbsp; **a. Start game** - Starts the game play <br />
+&nbsp; **b. Settings**  <br />
+&nbsp; &nbsp; i. LCD brightness control  <br />
+&nbsp; &nbsp; ii. Matrix brightness control (see function setIntesnity from the ledControl library)  <br />
+&nbsp; **c. About** - Includes details about the the game: game name, author and github user  <br />
+
+### Setup
+<p float = "left">
+<image src = "https://github.com/AncaaO/IntroductionToRobotics/assets/92025959/e1d8ba22-e45e-4046-88d8-c9a074e93153" width="40%">
+</p>
+
+
+### Link to a video showcasing functionality
+[Here!](https://youtu.be/_zbVAKKoIBw)
+
